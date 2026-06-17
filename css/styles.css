@@ -53,16 +53,18 @@ nav a {
   /* 5. Add a background image and center it within the element (2 marks) */
   color: white;
   text-align: center;
-  padding: 6rem 2rem;
+  padding:20rem 2rem;
+  background-image: url("lee-campbell-DtDlVpy-vvQ-unsplash.jpg");
+  background-size: cover;
 }
 
 .hero h1 {
   /* 6. Set the font size to roughly 25px using rem units (1 mark) */
-  font-weight: 700;
+  font-weight: 2.5rem;
 }
 
 .hero p {
-  margin-top: 1rem;
+  margin-top: 2rem;
   /* 7. Set the font size to roughly 20px using rem units (1 mark) */
 }
 
@@ -79,6 +81,7 @@ section {
   margin-bottom: 2rem;
   /* 8. Make the heading text all uppercase (1 mark) */
   color: #1f2937;
+  text-transform: uppercase;
 }
 
 .card {
@@ -96,6 +99,7 @@ section {
   border-radius: 999px;
   font-size: 1.2rem;
   font-weight: bold;
+  margin-left: 90rem;
 }
 
 /* Contact Form */
@@ -118,6 +122,15 @@ section {
 .contact-form input,
 .contact-form textarea {
   /* 10. Apply visual styles based on the form mockup provided (4 marks) */
+  display: grid;
+  grid-template-columns: repeat(1,2fr);
+  gap: 5rem, 1rem;
+  padding-right: 30rem;
+  margin-left: 4rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 .contact-form button {
@@ -128,5 +141,6 @@ section {
   border-radius: 4px;
   font-weight: bold;
   cursor: pointer;
+  margin-left: 4rem;
 }
 
