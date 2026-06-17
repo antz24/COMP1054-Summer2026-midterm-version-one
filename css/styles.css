@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   /* 1. Adjust box-sizing so element dimensions include padding and borders (1 mark) */
+  box-sizing: border-box;
 }
 
 html {
@@ -13,6 +14,7 @@ body {
   /* 2. Apply a custom web font (e.g., from a web font service) (2 marks) */
   color: #222;
   line-height: 1.6;
+  font-family: 'Abel';
 }
 
 /* Navigation */
